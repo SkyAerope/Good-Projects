@@ -18,10 +18,7 @@
         * [peer2profit刷闲置流量](#peer2profit)
         * [traffmonetizer](#traffmonetizer)
         * [spider](#spider)
-        * [surfe1](#surfe1)
-        * [surfe2](#surfe2)
         * [跑流量提供测试IP](#跑流量提供测试IP)
-        * [跑模拟点击挂机](#跑模拟点击挂机)
         * [跑流量测试网站挂机](#跑流量测试网站挂机)
         * [跑流量挂机](#跑流量挂机测试网站)
         * [跑流量刷上行](#跑流量刷上行)
@@ -29,6 +26,9 @@
         * [跑流量挂机02](#跑流量挂机2)
         * [cryptotab挖币挂机](#cryptotab)
         * [honeyminer智能挖币挂机](#honeyminer)
+        * [跑模拟点击挂机](#跑模拟点击挂机)
+        * [surfe1](#surfe1)
+        * [surfe2](#surfe2)
     * [狗东合集](#狗东合集)
         * [狗东入会脚本(每天两次)](#狗东入会脚本)
         * [狗东退会脚本](#狗东退会脚本)
@@ -85,9 +85,9 @@
 
 ## 前言
 
-### 2022.5.25更新列表
+### 2022.7.4更新列表
 
-删除过期优惠。
+更新挂机脚本。
 
 ## 链接说明
 
@@ -110,6 +110,8 @@ lifepoints网 https://www.lifepointspanel.com/
 Rakuten Insight网 https://www.aipsurveyschina.com/s/member
 
 yougov调查网 https://account.yougov.com/cn-zh/join?referral=x7Y6cx7ZUcKKOqgzTHLgjw
+
+looksup国外平台 https://lootup.me?refer=3699182
 
 强烈推荐lifepoints和收奖网，一个回报丰厚一个耗时最少。
 
@@ -155,11 +157,13 @@ nezha面板涵盖这个的主题。
 
 ### 618活动
 
-2核2G内存4M带宽40GBSSD硬盘 300G月流量 一年45
+上海/北京/广州100%CPU性能 2核2G内存4M带宽40GBSSD硬盘 300G月流量 三个月18元
 
-2核4G内存6M带宽60GBSSD硬盘 1000G月流量 一年120
+上海/北京/广州100%CPU性能 2核2G内存4M带宽40GBSSD硬盘 300G月流量 1年45元
 
-https://curl.qcloud.com/BGcrTXDK
+上海/北京/广州100%CPU性能 2核4G内存6M带宽60GBSSD硬盘 1000G月流量 一年120元
+
+https://curl.qcloud.com/ND8PwjDp
 
 ### 秒杀活动，仅限新用户
 
@@ -272,7 +276,7 @@ pps:有可能黑身份上征信，我没操作过，一切只是他人的经验�
 
 黑五(或者优惠卷)平摊下来每月7.8元左右，日常价格平摊下来每月10元出头一点。
 
-购买链接：[https://portal.nextarray.com/aff.php?aff=99](https://portal.nextarray.com/aff.php?aff=99)
+购买链接：[https://portal.nextarray.com/?affid=99](https://portal.nextarray.com/?affid=99)
 
 #### 美国小鸡4(VPS)
 
@@ -488,6 +492,8 @@ pps:别琢磨自动续期了，euserv就是被自动续期搞没的！！！！
 
 ## 挂机项目合集
 
+一般按照推荐性从好到坏排
+
 ### peer2profit
 
 支持全平台，这是它的优点
@@ -502,9 +508,7 @@ pps:别琢磨自动续期了，euserv就是被自动续期搞没的！！！！
 
 国外服务器可挂，国内服务器挂了收益较低，但挂住宅网收益还是可观的。
 
-执行后输入上面注册链接里你注册的账户邮箱即可直接安装(只支持centos8+，amd64架构的ubuntu16+，amd64架构的Debian10+)
-
-~~(其他系统的我已经向客服请求，工程师正在修复bug，不久之后会支持更广)~~
+执行后输入上面注册链接里你注册的账户邮箱即可直接安装(支持centos(Redhat)，amd64架构的ubuntu16+，amd64架构的Debian10+)
 
 (经过我的要求，官方增加了对低版本的支持，如果有bug，可以联系我，我和官方客服沟通，当然你也可以直接联系官方客服)
 
@@ -524,7 +528,7 @@ curl -L https://raw.githubusercontent.com/spiritLHLS/Hang-up-items/main/p.sh -o 
 
 **可挂服务器的第二推荐项目！**
 
-注册链接(获得5刀初始金)：https://traffmonetizer.com/?aff=96902
+注册链接(获得5刀初始金)：https://traffmonetizer.com/?aff=247346
 
 自写一键安装命令
 
@@ -538,24 +542,6 @@ curl -L https://raw.githubusercontent.com/spiritLHLS/traffmonetizer-one-click-co
 
 输入后只需要填写你的token即可一键安装环境和平台脚本
 
-### ~~跑挂机刷语音~~
-
-网站已经停更很久了，不会付款转换了。
-
-~~支持：win系统~~
-
-~~次月15提现，5美元起提现，支持paypal和外币卡提现~~
-
-~~可挂服务器，开个浏览器挂着就行了。(不分国内外机，收益一样，只要你访问它网站没问题)~~
-
-~~注意！！！别一个号挂太多IP，挂多了被识别全是机器挂的就封号了！！！~~
-
-~~最多一个号挂10个IP！！！！~~
-
-链接：https://RadioEarn.com/?ref=529174
-
-~~24小时在线一个IP挂一个月720积分，2美元左右~~
-
 ### spider
 
 支持：win系统，其他系统后续会支持
@@ -563,26 +549,6 @@ curl -L https://raw.githubusercontent.com/spiritLHLS/traffmonetizer-one-click-co
 可挂服务器。
 
 链接：https://income.spider.dev/r/l2461v26vw
-
-### surfe1
-
-支持：win和macos系统
-
-支持payeer提现。
-
-可挂服务器。
-
-链接：https://surfe.app/?refid=98
-
-### surfe2
-
-支持：win和macos系统
-
-支持外币卡，payeer，paypal，payoneer，webmoney，skrill，BTC.
-
-可挂服务器。
-
-链接：https://surfe.be/ext/1842025 
 
 ### 跑流量提供测试IP
 
@@ -593,20 +559,6 @@ curl -L https://raw.githubusercontent.com/spiritLHLS/traffmonetizer-one-click-co
 不可挂服务器，只能挂住宅IP
 
 链接：https://earnapp.com/i/euellb5
-
-### ~~跑模拟点击挂机~~
-
-~~收益过低，且免费，不推荐了~~
-
-~~支持：Ubuntu系统的linux，win系统~~
-
-~~仓库链接如下：（已反代理加速，直接点开直连打开即可）~~
-
-~~[点我跳转链接](https://git.spiritlhl.workers.dev/spiritLHL/Alexamaster)~~
-
-~~说明文档链接：(上面仓库也有说明文档，点上下哪个都能看到说明)~~
-
-~~链接：https://www.spiritlhl.top/Alexamaster/ ~~  
 
 
 ### 跑流量挂机测试网站  
@@ -659,7 +611,7 @@ https://r.honeygain.me/24610E80CD
 
 提现直接到账国内账户。
 
-领取新人奖励，可以填写我的邀请码：```406986```
+~~领取新人奖励，可以填写我的邀请码：```406986```
 
 收益看需求，看地区，个人实测和上面的刷上行的收益不相上下
 
@@ -695,6 +647,58 @@ https://cryptotabbrowser.com/18839769
 新的一个平台，聊胜于无，自己感觉比不过上面那个(蜜蜂智能挖矿，自动选择币种，伤GPU和CPU)  
 
 https://honeyminer.com/referred/6dwn5
+
+### ~~跑挂机刷语音~~
+
+网站已经停更很久了，不会付款转换了。
+
+~~支持：win系统~~
+
+~~次月15提现，5美元起提现，支持paypal和外币卡提现~~
+
+~~可挂服务器，开个浏览器挂着就行了。(不分国内外机，收益一样，只要你访问它网站没问题)~~
+
+~~注意！！！别一个号挂太多IP，挂多了被识别全是机器挂的就封号了！！！~~
+
+~~最多一个号挂10个IP！！！！~~
+
+链接：https://RadioEarn.com/?ref=529174
+
+~~24小时在线一个IP挂一个月720积分，2美元左右~~
+
+### ~~跑模拟点击挂机~~
+
+~~收益过低，且免费，不推荐了~~
+
+~~支持：Ubuntu系统的linux，win系统~~
+
+~~仓库链接如下：（已反代理加速，直接点开直连打开即可）~~
+
+~~[点我跳转链接](https://git.spiritlhl.workers.dev/spiritLHL/Alexamaster)~~
+
+~~说明文档链接：(上面仓库也有说明文档，点上下哪个都能看到说明)~~
+
+~~链接：https://www.spiritlhl.top/Alexamaster/ ~~  
+
+### surfe1
+
+支持：win和macos系统
+
+支持payeer提现。
+
+可挂服务器。
+
+链接：https://surfe.app/?refid=98
+
+### surfe2
+
+支持：win和macos系统
+
+支持外币卡，payeer，paypal，payoneer，webmoney，skrill，BTC.
+
+可挂服务器。
+
+链接：https://surfe.be/ext/1842025 
 
 
 ## 狗东合集
@@ -821,20 +825,20 @@ https://ctlddey.lanzoui.com/iAutpwdtu0j
 
 ### 狗狗助手
 
-2022.1.5更新
+2022.05.19更新
 
 支持：电脑，云服务器
 
 单文件版运行下载地址：
 
-如1.0.1无法打开的下载1.0.1修复版（几十M）：
-换了个编译器解决部分机器出现No module named 'PyQt5.QtWebEngineWidgets'
-https://ctlddey.lanzoul.com/iwemLye9spa
+1.0.3版本下载地址：(修复版)
+（1.0.2更新请把配置文件复制过来，否则将以全新状态运行）
+https://ctlddey.lanzoul.com/i1wCr04r7hvc
 
-可以正常打开就下载修复包（几百K，需有1.0.1解压包）：
-https://ctlddey.lanzoul.com/itNYHye97mb
+1.0.2版本下载地址：
+https://ctlddey.lanzoul.com/iv3F804ehhcf
 
-原帖链接：https://www.52pojie.cn/thread-1570658-1-1.html
+原帖链接：[https://www.52pojie.cn/thread-1570658-1-1.html](https://www.52pojie.cn/thread-1632520-1-1.html)
 
 ### 52签到助手
 
