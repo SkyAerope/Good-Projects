@@ -15,15 +15,19 @@
     * [站点统计](#站点统计)
 * [挂机和羊毛项目(需要电脑或手机端挂机)](#挂机和薅羊毛项目)
     * [硬核挂机项目合集](#挂机项目合集)
-        * [peer2profit刷闲置流量](#peer2profit)
-        * [traffmonetizer](#traffmonetizer)
+        * [peer2profit挂闲置流量](#peer2profit)
+        * [traffmonetizer挂闲置流量](#traffmonetizer)
+        * [iproyal挂闲置流量](#iproyal)
+        * [packetstream挂闲置流量](#packetstream)
+        * [earnapp挂闲置流量](#earnapp)
+        * [honeygain挂闲置流量](#honeygain)
+        * [proxyrack](#proxyrack)
+        * [2captcha](#2captcha)
         * [spider](#spider)
-        * [跑流量提供测试IP](#跑流量提供测试IP)
-        * [跑流量测试网站挂机](#跑流量测试网站挂机)
-        * [跑流量挂机](#跑流量挂机测试网站)
+        * [repocket](#repocket)
+        * [packity](#packity)
         * [跑流量刷上行](#跑流量刷上行)
         * [甜糖挂机](#甜糖挂机)
-        * [跑流量挂机02](#跑流量挂机2)
         * [cryptotab挖币挂机](#cryptotab)
         * [honeyminer智能挖币挂机](#honeyminer)
         * [跑模拟点击挂机](#跑模拟点击挂机)
@@ -85,9 +89,9 @@
 
 ## 前言
 
-### 2022.7.4更新列表
+### 2022.8.22更新列表
 
-更新挂机脚本。
+更新挂机项目提现方式。
 
 ## 链接说明
 
@@ -97,11 +101,13 @@
 
 收奖网 http://www.sojiang.com/i.aspx?c=1-11501664
 
+looksup国外平台 https://lootup.me?refer=3699182
+
 爱调查 http://www.52survey.com/inviteFriend.mdq?ue=2006281
 
 集思吧 https://www.jisiba.com/invite?code=0evr9q
 
-lifepoints网 https://www.lifepointspanel.com/
+~~lifepoints网~~ ~~https://www.lifepointspanel.com/~~ (据反应会导致国外电话打过来，介意勿用)
 
 拼任务app端 https://www.taidu8.com/common/share/#/homeshare
 
@@ -111,9 +117,7 @@ Rakuten Insight网 https://www.aipsurveyschina.com/s/member
 
 yougov调查网 https://account.yougov.com/cn-zh/join?referral=x7Y6cx7ZUcKKOqgzTHLgjw
 
-looksup国外平台 https://lootup.me?refer=3699182
-
-强烈推荐lifepoints和收奖网，一个回报丰厚一个耗时最少。
+强烈推荐looksup和收奖网，一个回报丰厚一个耗时最少。
 
 2022年了，目前我还在坚持使用的只有收奖网了，其他的耗时多收益低，没那时间了。
 
@@ -492,21 +496,23 @@ pps:别琢磨自动续期了，euserv就是被自动续期搞没的！！！！
 
 ## 挂机项目合集
 
-一般按照推荐性从好到坏排
+**一般按照推荐性从好到坏排**
 
 ### peer2profit
 
-支持全平台，这是它的优点
+支持：windows系统，linux，安卓，ios，mac
 
 支持多种提现方式，外币卡或者payeer都是可以的，当然还有加密货币。
 
 **可挂服务器上的第一推荐项目！**
 
-链接：https://p2pr.me/164225539661e2d42426a2f
+链接：https://p2pr.me/164225539661e2d42426a2f 
+
+如果使用的是linux系统，在这里注册后修改下面一键命令的邮箱即可一键安装
 
 一键安装命令，方便部署服务器(写死了，单IP不能多开，多开封号)(收益比较低，一个IP一个月大概就0.1~0.0.25刀，个人实验38天0.21刀)
 
-国外服务器可挂，国内服务器挂了收益较低，但挂住宅网收益还是可观的。
+国外服务器可挂，国内服务器挂了收益较低，但挂住宅网收益还是可观的，挂闲置流量。
 
 执行后输入上面注册链接里你注册的账户邮箱即可直接安装(支持centos(Redhat)，amd64架构的ubuntu16+，amd64架构的Debian10+)
 
@@ -516,13 +522,17 @@ pps:别琢磨自动续期了，euserv就是被自动续期搞没的！！！！
 
 附上和客服聊天截图：https://s2.loli.net/2022/05/08/7Zka29CdJxsWPGQ.png
 
+自写一键安装脚本仓库：https://github.com/spiritLHLS/peer2profit-one-click-command-installation/blob/main/README_zh.md
+
+一键安装命令：
+
 ```bash
-curl -L https://raw.githubusercontent.com/spiritLHLS/Hang-up-items/main/p.sh -o p.sh && chmod +x p.sh && bash ./p.sh
+curl -L https://raw.githubusercontent.com/spiritLHLS/peer2profit-one-click-command-installation/main/p.sh -o p.sh && chmod +x p.sh && bash p.sh -m 你的邮箱
 ```
 
 ### traffmonetizer
 
-支持：win，macos，linux系统
+支持：windows系统，macos，linux系统，安卓
 
 支持多种提现方式，外币卡，payeer，paypal，payoneer，webmoney，skrill，BTC.
 
@@ -530,61 +540,197 @@ curl -L https://raw.githubusercontent.com/spiritLHLS/Hang-up-items/main/p.sh -o 
 
 注册链接(获得5刀初始金)：https://traffmonetizer.com/?aff=247346
 
-自写一键安装命令
+挂闲置流量，这个收益比上面的高。
 
-仓库：https://github.com/spiritLHLS/traffmonetizer-one-click-command-installation
+在这里注册后修改下面一键命令最后的token即可一键安装
+
+自写一键安装脚本仓库：https://github.com/spiritLHLS/traffmonetizer-one-click-command-installation/blob/main/README_zh.md
 
 一键安装命令：
 
 ```
-curl -L https://raw.githubusercontent.com/spiritLHLS/traffmonetizer-one-click-command-installation/main/tm.sh -o tm.sh && chmod +x tm.sh && bash ./tm.sh
+curl -L https://raw.githubusercontent.com/spiritLHLS/traffmonetizer-one-click-command-installation/main/tm.sh -o tm.sh && chmod +x tm.sh && bash ./tm.sh -t ViRrn6FZQsfgmE9pjmyAPsEM7UD6epqMb4zcJ3WtQYk=
 ```
 
 输入后只需要填写你的token即可一键安装环境和平台脚本
 
+### iproyal
+
+支持：windows系统，linux
+
+支持提现方式：paypal
+
+**可挂服务器的第三推荐项目！(部分云服务器可挂，因为是家宽IP，部分服务器不可以)**
+
+注册链接(获得1刀初始金)：https://iproyal.com/pawns?r=97082
+
+如果使用的是linux系统，在这里注册后修改下面一键命令的邮箱和密码即可一键安装
+
+用了一天0.05美元，我这网延迟和带宽不行，如果延迟和带宽好一点的网估计比上面那个收益高一点，不能用梯子挂，裸挂真实ip，挂闲置流量
+
+家中的电脑等个人设备肯定可以挂，挂闲置流量
+
+自写一键脚本仓库：https://github.com/spiritLHLS/iproyal-one-click-command-installation/blob/main/README_zh.md
+
+一键命令：
+
+```
+curl -L https://raw.githubusercontent.com/spiritLHLS/iproyal-one-click-command-installation/main/iproyal.sh -o iproyal.sh && chmod +x iproyal.sh && bash iproyal.sh -m 你的邮箱 -p 你的密码
+```
+
+### packetstream
+
+支持：windows系统，linux
+
+提现到paypal
+
+**可挂服务器的第四推荐项目！(部分云服务器可挂，因为是家宽IP，部分服务器不可以)**
+
+链接：https://packetstream.io/?psr=2G9p
+
+挂闲置流量
+
+注册后在下载选项中选择linux，复制所有代码执行即可
+
+测试有没有安装过docker
+
+```bash
+docker ps -a
+```
+
+事先如果没安装过docker，执行会报错，使用以下命令安装docker后再执行你上面复制的命令，安装过docker上述命令没抱错就不必使用下面的命令了
+
+```bash
+curl -sSL get.docker.com | sh
+```
+
+### earnapp
+
+支持：windows系统，mac，ios，linux，安卓
+
+随时可提现，支持paypal或者亚马逊电子卡提现
+
+**可挂服务器的第五推荐项目！(部分云服务器可挂，因为是家宽IP，部分服务器不可以)**
+
+链接：https://earnapp.com/i/euellb5
+
+挂闲置流量
+
+注册后使用以下命令下载安装：
+
+```bash
+wget -qO- https://brightdata.com/static/earnapp/install.sh > /tmp/earnapp.sh && sudo bash /tmp/earnapp.sh
+```
+
+安装完毕后会出现一个浏览器链接，在 ```Open the following URL in the browser:```的下一行，其实就是完整安装后的最后一行输出的链接，你注册后复制该链接到你注册登陆成功的浏览器上打开，就链接上你的账号了(注意账号一定要提前注册或登陆好)
+
+卸载服务使用以下命令
+
+```bash
+earnapp uninstall
+```
+
+### honeygain
+
+支持：windows系统，mac，ios，linux，安卓
+
+**可挂服务器的第六推荐项目！(部分云服务器可挂，因为是家宽IP，部分服务器不可以)**
+
+**注意，这家挂机必须百分百确定你的是家宽服务器或者是你直接国内家里的流量可以挂，别的不能挂，挂错的多了会封号！**
+
+链接：https://r.honeygain.me/SPIRICF6DB
+
+消耗流量挂机，走上面链接注册送5美元初始金
+
+如果是国内IP，还是算了吧，单IP一天有0.1美元不错了，如果带宽和延迟好可以试试，我挂了1.5天0.05美元，比较好的就是国内直接就能上，从头到尾不需要梯子
+
+挂闲置流量
+
+这个是paypal付款给你，但是提现得攒到20美元才行
+
+自写一键脚本仓库：https://github.com/spiritLHLS/honeygain-one-click-command-installation/blob/main/README_zh.md
+
+一键命令：
+
+```
+curl -L https://raw.githubusercontent.com/spiritLHLS/honeygain-one-click-command-installation/main/hg.sh -o hg.sh && chmod +x hg.sh && bash hg.sh -m 你的邮箱 -p 你的密码
+```
+
+### proxyrack
+
+支持：windows系统
+
+可挂服务器，挂国内也有收益，是个好东西。
+
+**一天一个IP最低的时候0.02~0.05刀，可惜就是限制了只能win暂时**
+
+这家收益不稳定，如果碰到需求大的日子就起飞，需求低的日子那收益低，每天收益不固定的。
+
+平台初创，收益自然高了，人多了可能就低了。(其他好处我就不细说了，自己悟)
+
+提款请求将在72小时内处理，处理完后你会收到一封邮件，里面选择如何提款，有paypal，一张360天有效期的虚拟银行卡(预付卡)，各种礼品卡。
+
+注册链接(注册送5刀)：https://peer.proxyrack.com/ref/p28h60vn6bq3pznzx4bjuocdwqb5lrlb2tf3fksy
+
+首次提现需要攒够20刀，实际上你需要挂出15刀即可提现。
+
+2022.8.22 更新提现方式截图
+
+邮件：
+
+https://s2.loli.net/2022/08/22/om3up7g4IiKMDNc.png
+
+提款方式：
+
+https://s2.loli.net/2022/08/22/i9lQoICuwTtUzr7.png
+
+这个厉害，第一个选项送你一张预付卡
+
+https://s2.loli.net/2022/08/22/gaXf8vxisB3Tnby.png
+
+其他如下
+
+https://s2.loli.net/2022/08/22/8Akq6DljxtiW7G4.png
+
+https://s2.loli.net/2022/08/22/ls6kw3DvAi9XTCb.png
+
+https://s2.loli.net/2022/08/22/qPki435lCvoN2Le.png
+
+### 2captcha
+
+支持：浏览器
+
+链接：https://2captcha.com?from=14626988
+
+上面注册完毕后，看这个 https://2captcha.com/workers-software
+
+提现方式：paypal,西联汇款,银行转账
+
+通过手工解决验证码来获取收入，或者通过安装的浏览器插件以及类似的东西自动获取收入
+
 ### spider
 
-支持：win系统，其他系统后续会支持
+支持：windows系统，其他系统后续会支持
 
 可挂服务器。
 
 链接：https://income.spider.dev/r/l2461v26vw
 
-### 跑流量提供测试IP
+### repocket
 
-支持全平台
+支持：手机端
 
-随时可提现，支持paypal或者亚马逊电子卡提现
+使用paypal提现，暂时平台测试中，后续多平台支持
 
-不可挂服务器，只能挂住宅IP
+链接：https://link.repocket.co/t7Pn
 
-链接：https://earnapp.com/i/euellb5
+### packity
 
+支持：windows系统, mac
 
-### 跑流量挂机测试网站  
+使用paypal提现，暂时平台测试中，后续多平台支持
 
-支持：电脑    
-
-iproyal消耗流量挂机(类似上面那个，缺点是注册的时候得挂梯子才能显示谷歌人机验证，使用paypal付款给你，1美元提现，这个是优点)
-
-（用了一天0.05美元，我这网延迟和带宽不行，如果延迟和带宽好一点的网估计比上面那个收益高一点，不能用梯子挂，裸挂真实ip）  
-
-（这个不能挂云服务器，云服务器的ip是CDN分发还是什么的，不是固定IP没法挂）
-  
-https://iproyal.com/pawns?r=97082   
-
-
-### 跑流量测试网站挂机
-
-支持：手机，电脑      
-
-Honeygain消耗流量挂机(如果是国内IP，还是算了吧，一天有0.1美元不错了，如果带宽和延迟好可以试试，我挖了1.5天0.05美元，比较好的就是国内直接就能上，从头到尾不需要梯子)   
-
-（这个是paypal付款给你，但是提现得攒到20美元才行，可以和下面的一起挂）   
-
-（这个不能挂云服务器，云服务器的ip是CDN分发还是什么的，不是固定IP没法挂）
-
-https://r.honeygain.me/24610E80CD   
+链接：https://packity.com/signup?affid=62ef6c10991658043b85dce5
 
 
 ### 跑流量刷上行
@@ -616,18 +762,6 @@ https://r.honeygain.me/24610E80CD
 收益看需求，看地区，个人实测和上面的刷上行的收益不相上下
 
 链接：https://www.tiptime.cn/
-
-### 跑流量挂机2
-
-提现需要paypal账号
-
-支持：真实ip的电脑
-
-提现到paypal
-
-个人实测意义不大，除非机子在海外，国内不建议挂
-
-链接：https://packetstream.io/?psr=2G9p
 
 ### cryptotab
 
@@ -1202,11 +1336,19 @@ TV版电视盒子APP专区：https://ufoclz.lanzoui.com/b00zboiwb 码:2kzz
 
 链接：https://www.youneed.win/about
 
-**白嫖签到高速10G**
+**白嫖签到高速节点**
 
 对应白嫖项目GitHub自搜
 
-链接：https://glados.rocks/console/checkin
+注册链接：https://github.com/glados-network/GLaDOS
+
+兑换激活码(会员1天)：54ZCP-YVSLU-I1B0E-FVN1U
+
+上面激活了再看下面的
+
+自动签到项目：https://github.com/DullSword/GLaDOS-CheckIn
+
+签到可以一直使用会员套餐，每过半月一个月会给你优惠码兑换时长，可以一直续
 
 **时灵时不灵**
 
